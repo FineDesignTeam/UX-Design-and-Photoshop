@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Pics/TelerikLogo.png" alt="telerik logo" class="logo">
+        <img src="Pics/magnGlass.png" alt="se taq" id="question">
+        <input type="text" id="searchField" class="hidden" placeholder="  Търси в страницата...">
+    </header>
+    <div id="user-register">
+        <a href="#" id="reg" class="register reg">регистрация</a>
+        <p id="usr" class="register hidden">Потребител: </p>
+        <p class="register">|</p>
+        <p id="enter" class="register reg">вход</p>
+        <form id="form" action="#" class="form hidden">
+            <input type="submit" id="submit" value="влез" class="submit">
+            <input type="text" class="pass" placeholder="  password" required>
+            <input type="text" class="usrName" placeholder="  user name" required>
+        </form>
+    </div>
+    <nav>
+        <div id="nav-div">
+            <ul class="nav-ul">
+                <li class="nav-li">Академия</li>
+                <li class="nav-li">Курсове</li>
+                <li class="nav-li">Архив</li>
+                <li class="nav-li">Форум</li>
+                <li class="nav-li">За нас</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main-container">
+        <div id="registration-header">
+            <h3 id="info-tab" >Регистрация</h3>
+        </div>
+        <div id="registration-form" class="white">
+            <form id="register-form" action="../Forum.html">
+                <div class="reg-divche">
+                    <p class="reg-topic">Потребителско име</p>
+                    <input type="text" class="reg-field" placeholder="  required*" required>
+                </div>
+                <div class="reg-divche">
+                    <p class="reg-topic">Парола</p>
+                    <input type="text" class="reg-field" placeholder="  required*" required>
+                </div>
+                <div class="reg-divche">
+                    <p class="reg-topic">Парола отново</p>
+                    <input type="text" class="reg-field" placeholder="  required*" required>
+                </div>
+                <div class="reg-divche">
+                    <p class="reg-topic">Име на български</p>
+                    <input type="text" class="reg-field" placeholder="  required*" required>
+                </div>
+                <div class="reg-divche">
+                    <p class="reg-topic">Фамилия на български</p>
+                    <input type="text" class="reg-field" placeholder="  required*" required>
+                </div>
+                <div class="reg-divche">
+                    <p class="reg-topic">Имейл</p>
+                    <input type="text" class="reg-field" placeholder="  required*" required>
+                </div>
+                <div class="reg-divche">
+                    <input type="checkbox" id="check" class="reg-topic small" required>
+                    <p class="reg-topic small">Съгласен съм с правилата и условията на академията на Телерик</p>
+                    <input type="submit" id="reg-form-register" value="регистрирай ме!" class="submit reg-submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

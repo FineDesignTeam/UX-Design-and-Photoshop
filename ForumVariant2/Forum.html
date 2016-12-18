@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="content/style.css">
+</head>
+<body>
+    <header>
+        <img src="content/Pics/TelerikLogo.png" alt="telerik logo" class="logo">
+        <img src="content/Pics/magnGlass.png" alt="se taq" id="question">
+        <input type="text" id="searchField" class="hidden" placeholder="  Търси в страницата...">
+    </header>
+    <div id="user-register">
+        <img src="content/Pics/Bell.png" alt="" class="register reg hidden" id="bell">
+        <p id="reg" class="register reg">регистрация</p>
+        <p id="usr" class="register hidden">Потребител: </p>
+        <p class="register">|</p>
+        <p id="enter" class="register reg">вход</p>
+        <form id="form" action="#" class="form hidden">
+            <input type="submit" id="submit" value="влез" class="submit">
+            <input type="text" class="pass" placeholder="  password" required>
+            <input type="text" class="usrName" placeholder="  user name" required>
+        </form>
+    </div>
+    <nav>
+        <div id="nav-div">
+            <ul class="nav-ul">
+                <li class="nav-li">Академия</li>
+                <li class="nav-li">Курсове</li>
+                <li class="nav-li">Архив</li>
+                <li id="chk" class="nav-li">Форум</li>
+                <li class="nav-li">За нас</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main-container">
+        <h4 class="navigation-link"><span class="nav-link">C# Programming /</span>
+            <span class="nav-link-end"> C# Fundamentals</span>
+            <a href="#" class="category">Класиране</a>
+            <a href="#" class="category">Неотговорени</a>
+            <a href="#" class="category">Най-гласувани</a>
+            <a href="#" class="category">Най-нови</a>
+        </h4>
+        <div id="forum-main">
+            <div id="forum-menu">
+                <h3 id="info-tab" >Най-нови</h3>
+                <h5>+нова тема</h5>
+            </div>
+            <div class="forum-post white">
+                <a href="content/forum-thema.html"><h2 class="h2blue">Въпрос относно изпита по C# Advanced</h2></a>
+                <div class="question-info">
+                    <div class="divche">
+                        <p class="info info-result">4</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-up">8</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-down">4</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-seen">24</p>
+                    </div>
+                </div>
+                <p class="forum-question">Имам въпрос. Предполагам, че ако са минали всички групи няма да има проблем да се обсъждат.
+                    Аз пък лично искам да си видя грешките в HTML теста, ама това вече ми казаха, че не е възможно :) </p>
+                <p class="under-question"><a href="#" class="user">Бай Гошо</a><span class="date">Mon Dec 14 16:25</span></p>
+            </div>
+            <div class="forum-post white">
+                <a href="content/forum-thema.html"><h2 class="h2blue">Въпрос относно курса по Уеб дизайн</h2></a>
+                <div class="question-info">
+                    <div class="divche">
+                        <p class="info info-result">-4</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-up">4</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-down">8</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-seen">24</p>
+                    </div>
+                </div>
+                <p class="forum-question">Имам въпрос. Мога ли да помоля колегите, които карат курса "UX Design"
+                    присъствено, да споделят малко информация по организационните въпроси. </p>
+                <p class="under-question"><a href="#" class="user">Бай Пешо</a><span class="date">Mon Dec 14 16:25</span></p>
+            </div>
+            <div class="forum-post white">
+                <a href="content/forum-thema.html"><h2 class="h2blue">Въпрос относно курса по Ангулар2</h2></a>
+                <div class="question-info">
+                    <div class="divche">
+                        <p class="info info-result">-8</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-up">8</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-down">16</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-seen">24</p>
+                    </div>
+                </div>
+                <p class="forum-question">Имам въпрос. Мога ли да помоля колегите, които карат курса "UX Design"
+                    присъствено, да споделят малко информация по организационните въпроси.  </p>
+                <p class="under-question"><a href="#" class="user">Бай Иван</a><span class="date">Mon Dec 14 16:25</span></p>
+            </div>
+            <div class="forum-post white">
+                <a href="content/forum-thema.html"><h2 class="h2blue">Въпрос относно курса по Photoshop</h2></a>
+                <div class="question-info">
+                    <div class="divche">
+                        <p class="info info-result">-8</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-up">8</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-down">16</p>
+                    </div>
+                    <div class="divche">
+                        <p class="info info-seen">24</p>
+                    </div>
+                </div>
+                <p class="forum-question">Имам въпрос. Всички съотборници ли трябва да пуснем едни и същи хора
+                    в анкетата или един от съотборниците, като пусне анкета с хората които ще участват в отбора е достатъчно.</p>
+                <p class="under-question"><a href="#" class="user">Бат Сали</a><span class="date">Mon Dec 14 16:25</span></p>
+            </div>
+            <div class="forum-post-mini">
+                <div class="divc first">
+                    <p class="inf">1</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">2</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">3</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">4</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">5</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">6</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">7</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">8</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">9</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">10</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">...</p>
+                </div>
+                <div class="divc">
+                    <p class="inf">></p>
+                </div>
+                <div class="divc last">
+                    <p class="inf">>></p>
+                </div>
+            </div>
+        </div>
+        <div id="aside">
+            <h2>Кaтегории</h2>
+            <ul class="categories-ul">
+                <li class="categories-li">Важни съобщения</li>
+                <li class="categories-li">Софтуерна академия</li>
+                <li class="categories-li">QA Академия</li>
+                <li class="categories-li">School Academy</li>
+                <li class="categories-li">Algo Academy C++</li>
+                <li class="categories-li">Kids Academy</li>
+            </ul>
+            <ul class="acordeon">C# Programming
+                <li class="acordeon-li hideLi">C# Fundamentals</li>
+                <li class="acordeon-li hideLi">C# Advanced</li>
+                <li class="acordeon-li hideLi">C# OOP</li>
+                <li class="acordeon-li hideLi">C# Unit Testing</li>
+                <li class="acordeon-li hideLi">High Quality Code</li>
+                <li class="acordeon-li hideLi">Design Patterns</li>
+                <li class="acordeon-li hideLi">C# DSA</li>
+            </ul>
+            <ul class="acordeon">Web Design & UI
+                <li class="acordeon-li hideLi">HTML/CSS</li>
+                <li class="acordeon-li hideLi">Photoshop</li>
+                <li class="acordeon-li hideLi">UX Design</li>
+                <li class="acordeon-li hideLi">Slice and Dice</li>
+                <li class="acordeon-li hideLi">JS Fundamentals</li>
+                <li class="acordeon-li hideLi">JavaScript OOP</li>
+                <li class="acordeon-li hideLi">JS UI and DOM</li>
+                <li class="acordeon-li hideLi">JS Applications</li>
+                <li class="acordeon-li hideLi">SPA Applications A2</li>
+            </ul>
+            <ul class="acordeon">Web Development
+                <li class="acordeon-li hideLi">Databases</li>
+                <li class="acordeon-li hideLi">Web services & Cloud</li>
+                <li class="acordeon-li hideLi">SPA Applications</li>
+                <li class="acordeon-li hideLi">Apps with Node.JS</li>
+                <li class="acordeon-li hideLi">ASP.NET Web Forms</li>
+                <li class="acordeon-li hideLi">ASP.NET MVC</li>
+            </ul>
+            <ul class="acordeon">Mobile development
+                <li class="acordeon-li hideLi">Hybrid Mobile Apps</li>
+                <li class="acordeon-li hideLi">Apps with Native Script</li>
+                <li class="acordeon-li hideLi">Android Mobile Apps</li>
+                <li class="acordeon-li hideLi">iOS Mobile Apps</li>
+                <li class="acordeon-li hideLi">Windows Mobile Apps</li>
+            </ul>
+            <ul class="acordeon">Събития и конкурси
+                <li class="acordeon-li hideLi">Telerik Academy+</li>
+                <li class="acordeon-li hideLi">Space Apps Challenge</li>
+                <li class="acordeon-li hideLi">Windows Mobile Apps</li>
+            </ul>
+            <ul class="acordeon">Външни курсове
+                <li class="acordeon-li hideLi">Операционни системи</li>
+                <li class="acordeon-li hideLi">3DStudio MAX анимация</li>
+                <li class="acordeon-li hideLi">РНР програмиране</li>
+                <li class="acordeon-li hideLi">Бизнес умения</li>
+            </ul>
+            <ul class="acordeon">Други
+                <li class="acordeon-li hideLi">Студентска система</li>
+                <li class="acordeon-li hideLi">BGCoder.com</li>
+                <li class="acordeon-li hideLi">Предложения</li>
+                <li class="acordeon-li hideLi">Игри</li>
+            </ul>
+            <ul class="acordeon">Архив
+                <li class="acordeon-li hideLi">КПКод(ФМИ)</li>
+                <li class="acordeon-li hideLi">Cloud софтуер(ФМИ)</li>
+                <li class="acordeon-li hideLi">Software basics</li>
+                <li class="acordeon-li hideLi">Mobile Apps Dev(ФМИ)</li>
+            </ul>
+        </div>
+    </div>
+    <script src="content/script.js"></script>
+</body>
+</html>

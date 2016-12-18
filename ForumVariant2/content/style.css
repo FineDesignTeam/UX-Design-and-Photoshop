@@ -1,0 +1,472 @@
+body{
+    width:100%;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+header{
+    height: 80px;
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+.logo{
+    display: inline-block;
+    float: left;
+    height: 81px;
+    width: 240px;
+    cursor: pointer;
+}
+
+#question{
+    font-size: 16px;
+    margin-top: 30px;
+    display: inline-block;
+    float: right;
+}
+
+#searchField{
+    border: 1px solid grey;
+    position: relative;
+    float: right;
+    width: 35%;
+    height: 35%;
+    margin: 24px 15px 0 0;
+    border-radius: 8px;
+}
+
+#user-register{
+    height: 24px;
+    width:80%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.submit{
+    border:1px solid white;
+    text-decoration:none;
+    font-family: Sansation;
+    color: #000000;
+    background: none;
+    cursor: pointer;
+}
+
+.submit:hover{
+    color: #5ce600;
+}
+
+.register, .usrName, .pass, .submit{
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+}
+
+.submit{
+    margin-right: 15px;
+}
+
+.register{
+    margin: 2px 0 0 15px;
+    color: #000000;
+}
+
+.usrName, .pass{
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 20px;
+}
+
+#nav-div{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #0D496B;
+    margin: 20px 0 20px 0;
+}
+
+#nav-div:after{
+    clear: both;
+}
+
+.nav-link{
+    font-size: 13px;
+    color: grey;
+}
+
+#bell{
+    width: 18px;
+    height: 18px;
+}
+
+.nav-link-end{
+    font-size: 13px;
+    color: #0D496B;
+}
+
+.navigation-link:after{
+    clear: both;
+}
+
+.navigation-link{
+    width: 65%;
+}
+
+.category{
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    margin-left: 2%;
+    color: grey;
+}
+
+.category:hover{
+    color: #0D496B;
+}
+
+.categories-li, ul.acordeon{
+    color: grey;
+    font-size: 20px;
+    margin:5px 0 5px 0;
+}
+
+.categories-li:hover, .acordeon:hover{
+    color: #0D496B;
+    font-weight: bold;
+}
+
+.acordeon > li{
+    font-weight: normal;
+}
+
+ul.nav-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.nav-li{
+    color: #FFFFFF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.clicked{
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #0D496B !important;
+}
+
+#main-container{
+    min-height: 900px;
+    width:80%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#aside{
+    display:inline-block;
+    position: relative;
+    width: 25%;
+    float: right;
+}
+
+.showLi{
+    display: block;
+    color: grey;
+    margin: 5px 0 5px 0;
+    text-indent: 15px; text-decoration: none;
+}
+
+.hideLi{
+    display: none;
+}
+
+li.acordeon-li:hover{
+    color: #0D496B;
+}
+
+#forum-main, #registration-form{
+    border-top: 1px solid lightgrey;
+    display: inline-block;
+    position: relative;
+    width: 65%;
+    float: left;
+    margin-top: 5px;
+}
+
+#registration-form{
+    padding-top: 10px;
+}
+
+#forum-menu, #registration-header{
+    display: inline-block;
+    margin-top:3%;
+    vertical-align: bottom;
+    width: 100%;
+    height: 10%;
+}
+
+.forum-post{
+    padding: 15px;
+    margin-bottom:1%;
+    margin-top:1%;
+}
+
+.forum-post-mini{
+    margin-top: 40px;
+    padding: 15px;
+    height: 45px;
+}
+
+.blue{
+    background-color: #0D496B;
+    color: #f0f0f0;
+}
+
+.white{
+    background-color: #f6f6f6;
+    color: #000000;
+}
+
+.forum-question{
+    display: inline-block;
+    position: relative;
+    left: 3%;
+    width: 82%;
+    height: 40px;
+    font-size: 13px;
+}
+
+.under-question{
+    display: inline-block;
+    position: relative;
+    width: 85%;
+    margin: 0;
+}
+
+.question-info{
+    display: inline-block;
+    position: relative;
+    height: 95%;
+    width:10%;
+    float: right;
+}
+
+.divche{
+    position: relative;
+    width: 100%;
+    margin: 5px 0 10px 0;
+}
+
+.info{
+    margin: 0;
+    text-align: center;
+}
+
+.divc{
+    display: inline-block;
+    float: left;
+    border-top: 1px solid #0D496B;
+    border-bottom: 1px solid #0D496B;
+    border-left: 1px solid #0D496B;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.first{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #5ce600;
+}
+
+.last{
+    border-right: 1px solid #0D496B;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.inf{
+    display: inline-block;
+    position: relative;
+    margin: 25%;
+}
+
+.user, .date{
+    font-size: 12px;
+}
+
+.user{
+    color: #000000;
+    font-weight: bold;
+}
+
+.user:hover{
+    color: #5ce600;
+}
+
+.user, .category{
+    text-decoration: none;
+}
+
+.user::before{
+    background: url(Pics/person.png);
+}
+
+.userreg::before{
+    background: url(Pics/person.png);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-size: 100%;
+    margin-bottom: -3px;
+    margin-right: 4px;
+}
+
+.userreg{
+    color: #5ce600;
+}
+
+ul.acordeon::before{
+    background: url(Pics/arrow.png);
+}
+
+.info-result::before{
+    background: url(Pics/star.png);
+}
+
+.info-up::before{
+    background: url(Pics/up-icon.png);
+}
+
+.info-down::before{
+    background: url(Pics/down-icon.png);
+}
+
+.info-seen::before{
+    background: url(Pics/eye-icon.png);
+}
+
+.user::before, .info::before, ul.acordeon::before{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-size: 100%;
+    margin-bottom: -3px;
+    margin-right: 4px;
+}
+
+.date{
+    margin-left: 25px;
+}
+
+.categories-ul, .acordeon{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.reg:hover{
+    cursor: pointer;
+    color: #5ce600;
+}
+
+h4{
+    margin: 0 0 5px 0;
+}
+
+h3, h5{
+    display: inline-block;
+    margin: 0;
+}
+
+h3{
+    color: #0D496B;
+    margin-top: 0;
+    float: left;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    width: 80%;
+    margin: 0 0 15px 0;
+}
+
+.h2blue{
+    color: #0D496B;
+    cursor: pointer;
+}
+
+.h2blue:hover{
+    color: #5ce600;
+}
+
+h5{
+    position: relative;
+    font-size: 15px;
+    color: #474155;
+    cursor: pointer;
+    float: right;
+}
+
+h5:hover{
+    color: #5ce600;
+}
+
+.hidden{
+    display:none;
+}
+
+.show{
+    display:inline-block;
+}
+.reg-topic{
+    display: inline-block;
+    margin: 1.5% 0 0 2%;
+}
+
+.reg-field{
+    display: inline-block;
+    float: right;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 40%;
+    height: 30px;
+    margin: 0 2% 0 0;
+}
+
+.reg-divche{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    margin: 4% 0 5% 0;
+}
+
+.register-info{
+    display: inline-block;
+    position: relative;
+    font-size: 10px;
+}
+
+.reg-submit{
+    font-size: 18px;
+}
+
+.small{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
