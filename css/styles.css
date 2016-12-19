@@ -22,6 +22,10 @@ body {
     position: relative;
 }
 
+ul {
+    list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -69,7 +73,8 @@ a {
 
 a:hover,
 a:active,
-a:focus {
+a:focus,
+a.active {
     color: #ff6358;
     text-decoration: none;
 }
@@ -157,8 +162,10 @@ a.text-muted {
 }
 
 .pagination {
+    width: 100%;
     margin: 0;
     border: 0;
+    border-top: 1px solid rgba(79, 93, 108, .06);
     border-radius: 0;
 }
 
@@ -453,21 +460,21 @@ a.text-muted {
     font-size: 1.7rem;
 }
 
-#main-content #posts-list .post-info {
+#main-content .post-info {
     color: #4f5d6c;
     font-size: 1.2rem;
 }
 
-#main-content #posts-list .post-info strong {
+#main-content .post-info strong {
     color: #000;
     transition: color .2s ease-in-out;
 }
 
-#main-content #posts-list .post-info a strong:hover,
-#main-content #posts-list .post-info a strong:active,
-#main-content #posts-list .post-info a strong:focus,
-#main-content #posts-list .post-info a strong.active,
-#main-content #posts-list .post-info a strong.focus {
+#main-content .post-info a strong:hover,
+#main-content .post-info a strong:active,
+#main-content .post-info a strong:focus,
+#main-content .post-info a strong.active,
+#main-content .post-info a strong.focus {
     color: #ff6358;
 }
 
@@ -501,6 +508,49 @@ a.text-muted {
     box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.4);
 }
 
+#main-content #single-post .heading {
+    margin-bottom: 0;
+}
+
+#main-content .user-actions p.subscribe,
+#main-content .user-actions p:last-child {
+    margin: 0;
+}
+
+#main-content .user-actions a {
+    margin: 0 15px;
+}
+
+#main-content .user-actions a i {
+    margin: 0 5px;
+}
+
+#main-content #single-post .post-content {
+    margin-bottom: 20px;
+}
+
+#main-content #single-post .post-content p {
+    margin-bottom: 0;
+}
+
+#main-content #single-post #comments-list {
+    list-style: none;
+    margin: 0;
+}
+
+#main-content #single-post #comments-list,
+#main-content #single-post #comments-list ul li {
+    border-top: 1px solid rgba(79, 93, 108, .06);
+}
+
+#main-content #single-post #comments-list .reply {
+    margin-top: 30px;
+}
+
+#main-content #single-post #comments-list .reply li {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
 
 /* FOOTER */
 
