@@ -470,3 +470,158 @@ h5:hover{
     font-weight: bold;
     margin: 0;
 }
+
+
+footer .heading {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-link-container{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    float: left;
+}
+
+footer .footer-link-container ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer .footer-link-container ul li a {
+    color: lightgrey;
+    line-height: 1.4rem;
+}
+
+footer .footer-link-container ul li a:hover,
+footer .footer-link-container ul li a:active,
+footer .footer-link-container ul li a:focus {
+    color: white;
+}
+
+footer .copyright {
+    position: relative;
+    background-color: black;
+    height: 70px;
+}
+
+footer .copyright .container {
+    height: 100%;
+}
+
+footer .copyright .text {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer .copyright p {
+    margin: 0;
+}
+
+footer .copyright ul {
+    list-style: none;
+    margin: 0;
+}
+
+footer .copyright ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer .copyright ul li a {
+    color: #fff;
+}
+
+footer .copyright ul li a:hover,
+footer .copyright ul li a:active,
+footer .copyright ul li a:focus {
+    color: rgba(255, 255, 255, .4);
+}
+
+
+#first-post {
+    margin-left: 0px;
+}
+
+.in-post-heading {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    z-index: 106;
+}
+
+h5.in-post-heading {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.post-vote {
+    margin-bottom: 10px;
+}
+
+.post-vote a {
+    margin: 10px;
+}
+
+.nested {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.nested-icons {
+    width: 310px;
+}
+
+.in-post-heading {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    z-index: 106;
+}
+
+.nested {
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #0D496B;
+}
+
+#notification-footer {
+    background-color: #7B5F88;
+    width: 302px;
+    height: 32px;
+    z-index: 24;
+}
+
+.footer-text {
+    font-family: "Roboto";
+    color: white;
+    line-height: 1.8;
+    text-align: center;
+    z-index: 43;
+}
+
+footer, .padding-lg{
+    min-height: 280px;
+    width:100%;
+    overflow: auto;
+    margin: 20px 0 0 0;
+}
+
+.footer-ul{
+    font-size: 12px;
+}
